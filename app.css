@@ -196,6 +196,10 @@ span {
 
 /* =========== SECTIONS =========== */
 
+.container {
+  margin: 0 auto;
+}
+
 /* ---- NAVBAR ---- */
 .navbar {
   margin-bottom: 200px;
