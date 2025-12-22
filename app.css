@@ -62,7 +62,7 @@
   --black: #000;
 
   /* MISCELLANEOUS */
-  --nav-height: 300px;
+  --nav-height: 300px; /* update the value in the flexbox topic */
 }
 
 html {
@@ -211,15 +211,14 @@ span {
 /* ---- NAVBAR ---- */
 .navbar {
   height: var(--nav-height);
-  margin-bottom: 20rem;
 }
 
 /* ---- HERO SECTION ---- */
 .hero-section {
   height: calc(100vh - var(--nav-height));
-  min-height: 800px;
+  min-height: 400px;
   text-align: center;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
 }
 
 .hero-heading {
