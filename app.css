@@ -62,7 +62,7 @@
   --black: #000;
 
   /* MISCELLANEOUS */
-  --nav-height: 300px; /* update the value in the flexbox topic */
+  --nav-height: 100px; /* update the value in the flexbox topic */
 }
 
 html {
@@ -216,6 +216,11 @@ span {
   align-items: center;
 }
 
+.nav-btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
 /* ---- HERO SECTION ---- */
 .hero-section {
   height: calc(100vh - var(--nav-height));
@@ -271,11 +276,24 @@ span {
 
 /* ---- FOOTER ---- */
 .footer {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
+
+.social-icons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links-container {
+  display: flex;
+  gap: 1rem;
+}
+
 .social-icon {
   width: 20px;
 }
+
+
